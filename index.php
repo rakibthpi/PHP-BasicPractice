@@ -2,8 +2,9 @@
 <html lang="-US-en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="16x16">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>if | elseif | else</title>
 </head>
 <body>
 	<h1 style="font-size:20px"></h1>
@@ -38,21 +39,6 @@
 	  	echo "this is a fail";
 	  }
 
-	  $number = 10;
-
-	switch ($number) {
-		case 10:
-			echo "This is a".$number." This a Switch Case Area";
-			break;
-		case 20:
-			echo "This is a".$number." This a Switch Case Area";
-		default:
-			echo "This is Switch Case Defolt Area";
-			break;
-	}
-
-
-	
 	  
 	?>
 </body>
