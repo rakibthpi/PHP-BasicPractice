@@ -12,7 +12,7 @@
 	?>
 	<?php
 
-	  /* $x = 60;
+	  $x = 60;
 	  if ($x>100 && 0<$x){
 	  	echo "This is NOt Right Number";
 	  }
@@ -36,9 +36,9 @@
 	  }
 	  else{
 	  	echo "this is a fail";
-	  } */
+	  }
 
-	$number = 10;
+	  $number = 10;
 
 	switch ($number) {
 		case 10:
@@ -51,6 +51,8 @@
 			break;
 	}
 
+
+	
 	  
 	?>
 </body>
