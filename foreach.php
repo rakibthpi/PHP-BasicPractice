@@ -10,19 +10,28 @@
 
 	<?php 
 		// $number = array("1"=>"Rakib","Hosen","Natok","Muvi");
+		// intreged array 
+		// $defarent = array('shuchi','kuchi','rakib','rana','rasel');
 
-		$defarent = array('shuchi','kuchi','rakib','rana','rasel');
+		// $langth = count($defarent);
+		// echo $langth;
+		// for ($i=0; $i < $langth; $i++) { 
+		// 	echo $defarent[$i].",<br>";
+		// }
 
-		// $defarent = array(
-		// 	'tmi1'=>'shuchi',
-		// 	'tmi2'=>'kuchi',
-		// 	'tmi3'=>'rakib',
-		// 	'tmi4'=>'rana',
-		// 	'tmi5'=>'rasel'
-		// );
 
-		foreach(){
-			
+		// Array How many Type =>Specifying with array()
+
+		$defarent = array(
+			'tmi1'=>'shuchi',
+			'tmi2'=>'kuchi',
+			'tmi3'=>'rakib',
+			'tmi4'=>'rana',
+			'tmi5'=>'rasel'
+		);
+
+		foreach($defarent as $key=>$newname){
+			echo $key." ".$newname.'<br>';
 		}
 
 		
