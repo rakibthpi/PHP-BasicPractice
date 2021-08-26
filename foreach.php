@@ -59,14 +59,17 @@
 			$motorcol = count($motor[$row]);
 			echo "<ul>";
 
-			for($col=0;$col<$motorcol;$col++){
-				echo '<li><a href="#">';
-				$adata = $motor[$row][$col];
-				echo $adata;
-				echo '</li></a>';
+			for($col=0;$col<$motorcol;$col++){ ?>
+				<ul>
+					<li><a href="<?php echo $adata = $motor[$row][$col]; ?>">
+						<?php 
+							$adata = $motor[$row][$col];
+							echo $adata;
+						?>
+					</a></li>
+				</ul>
+				<?php
 			}
-
-			echo "</ul>";
 		}
 
 		
