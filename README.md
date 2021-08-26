@@ -1,2 +1,10 @@
-# PHP-BasicPractice
- This is a Practice File 
+<?php 
+
+
+		// Usre define Function ......... 
+		function functionname(){
+			return "Function Name Output .....Test";
+		}
+		echo functionname();
+
+	?>
