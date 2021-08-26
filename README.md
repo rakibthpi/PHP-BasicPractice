@@ -1,2 +1,1 @@
-# PHP-BasicPractice
- This is a Practice File 
+......... এগুলা এক একটা ফাংশন এগুলা পিএসপি এর বিল্ডিং ফাংশন 
