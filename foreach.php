@@ -11,6 +11,8 @@
 	<?php 
 		// $number = array("1"=>"Rakib","Hosen","Natok","Muvi");
 		// intreged array 
+
+		// For Loop This a Bilding function .... arokom onek Function ace je php te bilt kora ace 
 		$defarent = array('shuchi','kuchi','rakib','rana','rasel');
 
 		$langth = count($defarent);
