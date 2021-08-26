@@ -11,17 +11,32 @@
 
 
 		// Usre define Function ......... 
-		// function functionname(){
-		// 	return "Function Name Output .....Test";
-		// }
-		// echo functionname();
+		function functionname(){
+			return "Function Name Output .....Test";
+		}
+		echo functionname();
+		echo "<br><br><br>";
 
 
+		// First Function Area start 
 		function namehobe($fname){
 			return $fname;
 		}
-
 		echo namehobe("Md.Rakib Hosen");
+		echo "<br><br><br>";
+
+
+		// Second Function Area start 
+		function name($name1,$name2){
+			return $name1." ".$name2;
+		}
+		echo name("Coder It","Solution");
+		echo "<br><br><br>";
+
+		// Final Function area start
+		function coderit(){
+			
+		}
 
 	?>
 </body>
