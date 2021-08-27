@@ -34,9 +34,17 @@
 		echo "<br><br><br>";
 
 		// Final Function area start
-		function coderit(){
-			
+		$total = 0;
+
+		function numbering($numberone, $numbertwo){
+			global $total;
+			for($numberone;$numberone<=$numbertwo;$numberone++){
+				echo $numberone."<br>";
+				$total = $total+$numberone;
+			}
 		}
+		numbering(10,15);
+		echo "<br><hr>".$total;
 
 	?>
 </body>
