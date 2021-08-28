@@ -33,6 +33,32 @@
 		echo $str . "<br> <br><br>";
 		echo chop($str,"Hello");
 
+		// Name to string code 
+		$rak = convert_uuencode("Md.Rakib Hosen");
+		echo ($rak)."<br>";
+
+
+		$rakib = $rak;
+		echo convert_uudecode($rakib)."<br>";
+
+		// $str = "Hello World!";
+		// echo count_chars($str,3);
+
+		// charanter convert number
+		// $str = crc32("Md.Rakib hosen");
+		// echo($str);
+
+
+		// charecter value count 
+		$str = "Hello world. It's a beautiful day.";
+		print_r (explode(" ",$str))."<br><br><br>";
+		echo lcfirst("Hello world!");
+		echo "<br><br>";
+		
+		echo strcspn("Hello .world!","w");
+		echo "<br><br>";
+		echo strripos("This is a php developer","PHP");
+
 
 
 
