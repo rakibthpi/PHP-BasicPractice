@@ -14,11 +14,41 @@
 	<?php
 		if (isset($_POST['submit'])){
 			$mark = $_POST['st_roll'];
-			if($mark>=100 or 0>$mark){
-				echo "This number Not mach !!";
+			if(empty($mark)){
+				echo "This is a must be cherecter";
+			}
+			else if(is_numeric($mark)){
+				// It is a Mark Select area start 
+				if($mark>100 or 0>$mark){
+					echo "This number Not mach !!";
+				}
+				else{
+					if ($mark>=80) {
+						echo "Your gred A+";
+					}
+					else if($mark>=70){
+						echo "Your gred A";
+					}
+					else if($mark>=60){
+						echo "Your gred A-";
+					}
+					else if($mark>=50){
+						echo "Your gred B";
+					}
+					else if($mark>=40){
+						echo "Your gred C";
+					}
+					else if($mark>=33){
+						echo "This is gred D";
+					}
+					else{
+						echo "This is a Fail";
+					}
+				}
+				// It is a Mark Select area end 
 			}
 			else{
-				echo "This is a Fails";
+				echo "Must be a Number Requerd";
 			}
 		}
 	?>
