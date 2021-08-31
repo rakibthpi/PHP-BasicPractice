@@ -50,5 +50,13 @@ a{
   background-color: #fff;
   border: 1px solid #0d6efd;
 }
+.form_mark_area label{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.form_mark_area .form-control {
+  height: 45px;
+  font-size: 16px;
+}
 
 /*      5. Header area css start       */

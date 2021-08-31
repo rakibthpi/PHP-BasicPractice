@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Form Practice</title>
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
