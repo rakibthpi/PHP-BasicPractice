@@ -38,23 +38,17 @@
 		echo "<br><br><br>";
 
 		// Multidumentional Array 
+		echo "<br><br><br>";
 
 		$motor = array(
-
 				array('Hero', 'hero honda+', 'Hero Spander+', 'Hank'),
 				array('Bajaj', 'CT100', 'Discover 25', 'Discover 100', 'palsear','Daying'),
 				array('Yamaha', 'yamaha FZ', 'yamaha saluto', 'yamaha fazer'),
 				array('TVS', 'TVS metro', 'TVS Apache', 'Tvs Stryker')
 		);
 		$motorrow = count($motor);
-
 		// $subrow = count();
 		// echo $subrow;
-
-
-
-
-
 		// Multi dymentional array + for loop 
 		for($row=0;$row<$motorrow;$row++){
 			echo "Row Number = $row";
@@ -73,9 +67,42 @@
 				<?php
 			}
 		}
+		echo "<br><br><br>";
+		$st_list = array(
+			array('Rakib', 'Rubel', 'Shanto', 'joy'),
+			array('suci', 'sumi', 'lipi', 'Ruma', 'sima','rubi'),
+			array('Foysal', 'Romjan', 'Bikash', 'Alomgir'),
+			array('Margiya', 'Taslima', 'Sarmin', 'Samsikhanom')
+		);
+		$i= 0;
+		// $st_list = array('Rakib', 'Rubel', 'Shanto', 'joy');
+		foreach($st_list as $st_new_list){ 
 
+		?>
+
+		<ul>
+			<li>
+				<?php 
+					echo "Row Number :" .$i;
+
+					foreach($st_new_list as $value){ 
+
+					?>
+
+					<ul>
+						<li><a href="<?php echo $value; ?>"><?php echo $value; ?></a></li>
+					</ul>
+					<?php 
+
+					}
+				?>
+			</li>
+		</ul>
+
+		<?php
+			$i++;
 		
-
+		}
 	?>
 </body>
 </html>
