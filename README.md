@@ -1,10 +1,5 @@
-<?php 
-
-
-		// Usre define Function ......... 
-		function functionname(){
-			return "Function Name Output .....Test";
-		}
-		echo functionname();
-
-	?>
+// Usre define Function ......... 
+function functionname(){
+	return "Function Name Output .....Test";
+}
+echo functionname();
